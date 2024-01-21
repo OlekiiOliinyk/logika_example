@@ -1,8 +1,9 @@
 from random import randint
 
-print("Програма загадала число від 2 до 60")
+n, m = 2, 60
+num = randint(n,m)
 
-num = randint(2,3)
+print("Програма загадала число від 2 до 60")
 
 p = int(input("Вгадай число:"))
 
